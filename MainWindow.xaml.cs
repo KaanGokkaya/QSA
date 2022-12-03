@@ -24,5 +24,15 @@ namespace QSA
         {
             InitializeComponent();
         }
+
+        private void Exit_Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Down_Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
     }
 }

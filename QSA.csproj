@@ -7,4 +7,26 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Image\dotest.png" />
+    <None Remove="Image\down.png" />
+    <None Remove="Image\exit.png" />
+    <None Remove="Image\help.png" />
+    <None Remove="Image\homework.png" />
+    <None Remove="Image\settings.png" />
+    <None Remove="Image\statistic.png" />
+    <None Remove="Image\uploadtest.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\dotest.png" />
+    <Resource Include="Image\down.png" />
+    <Resource Include="Image\exit.png" />
+    <Resource Include="Image\help.png" />
+    <Resource Include="Image\homework.png" />
+    <Resource Include="Image\settings.png" />
+    <Resource Include="Image\statistic.png" />
+    <Resource Include="Image\uploadtest.png" />
+  </ItemGroup>
+
 </Project>

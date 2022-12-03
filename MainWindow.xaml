@@ -47,6 +47,168 @@
                 HorizontalAlignment="Left"
                 Margin="15,92,0,0">
             </Border>
+
+            <Border
+                Name="border_do_test"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="#d9d9d9"
+                Height="40"
+                Width="40"
+                CornerRadius="20,20,20,20"
+                Margin="30,116,0,0">
+                <Button
+                    Name="button_do_test"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
+                    <Image Source="\Image\dotest.png"
+                           Height="24"
+                           Width="18.6"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center">
+                    </Image>
+                </Button>
+            </Border>
+
+            <Border
+                Name="border_homework"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="#d9d9d9"
+                Height="40"
+                Width="40"
+                CornerRadius="20,20,20,20"
+                Margin="30,196,0,0">
+                <Button
+                    Name="button_homework"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
+                    <Image Source="\Image\homework.png"
+                           Height="19"
+                           Width="24"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center">
+                    </Image>
+                </Button>
+            </Border>
+
+            <Border
+                Name="border_tatistic"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="#d9d9d9"
+                Height="40"
+                Width="40"
+                CornerRadius="20,20,20,20"
+                Margin="30,276,0,0">
+                <Button
+                    Name="button_statistic"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
+                    <Image Source="\Image\statistic.png"
+                           Height="21.3"
+                           Width="21.3"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"></Image>
+                </Button>
+            </Border>
+
+            <Border
+                Name="border_upload"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="#d9d9d9"
+                Height="40"
+                Width="40"
+                CornerRadius="20,20,20,20"
+                Margin="30,356,0,0">
+                <Button
+                    Name="button_upload_test"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
+                    <Image
+                        Source="\Image\uploadtest.png"
+                        Height="21.3"
+                        Width="26.6"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"></Image>
+                </Button>
+            </Border>
+
+            <Border
+                Name="border_settings"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="#d9d9d9"
+                Height="40"
+                Width="40"
+                CornerRadius="20,20,20,20"
+                Margin="30,436,0,0">
+                <Button
+                    Name="button_settings"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
+                    <Image
+                        Source="\Image\settings.png"
+                        Height="18"
+                        Width="18"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"></Image>
+                </Button>
+            </Border>
+
+            <Button
+                Name="button_quit"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Height="28"
+                Width="31"
+                Margin="38,1015,0,0"
+                Click="Exit_Button_Click">
+                <Image
+                    Source="\Image\exit.png"
+                    Width="27"
+                    Height="24"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"></Image>
+            </Button>
+
+            <Button
+                Name="button_down"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Height="28"
+                Width="28"
+                Margin="38,961,0,0"
+                Click="Down_Button_Click">
+                <Image
+                    Source="\Image\down.png"
+                    Width="24"
+                    Height="24"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"></Image>
+            </Button>
+
+            <Button
+                Name="button_help"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Height="31"
+                Width="31"
+                Margin="36.5,904,0,0">
+                <Image
+                    Source="\Image\help.png"
+                    Width="27"
+                    Height="27"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"></Image>
+            </Button>
             
         </Grid>
         
