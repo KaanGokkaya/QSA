@@ -33,7 +33,7 @@
                 Foreground="#000000"
                 FontFamily="jsMath-cmr10"
                 FontSize="32"
-                Margin="16,32,0,0">
+                Margin="16,32,0,0" Click="qsa_button_Click">
                 QSA
             </Button>
 
@@ -60,7 +60,7 @@
                 <Button
                     Name="button_do_test"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent" Click="Button_Do_test_Click">
                     <Image Source="\Image\dotest.png"
                            Height="24"
                            Width="18.6"
@@ -82,7 +82,7 @@
                 <Button
                     Name="button_homework"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent" Click="Homework_button_Click">
                     <Image Source="\Image\homework.png"
                            Height="19"
                            Width="24"
@@ -104,7 +104,7 @@
                 <Button
                     Name="button_statistic"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent" Click="Statistic_button_Click">
                     <Image Source="\Image\statistic.png"
                            Height="21.3"
                            Width="21.3"
@@ -125,7 +125,7 @@
                 <Button
                     Name="button_upload_test"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent" Click="Upload_button_Click">
                     <Image
                         Source="\Image\uploadtest.png"
                         Height="21.3"
@@ -147,7 +147,7 @@
                 <Button
                     Name="button_settings"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent" Click="Setting_button_Click">
                     <Image
                         Source="\Image\settings.png"
                         Height="18"
@@ -209,9 +209,8 @@
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center"></Image>
             </Button>
-            
+
         </Grid>
-        
         <Label
             Name="Background_qsa"
             Foreground="#A59678"
@@ -223,7 +222,12 @@
             Opacity="0.3">
             QSA
         </Label>
-        
+        <ContentControl
+            x:Name="CC"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Right"
+            Height="1080"
+            Width="1820"></ContentControl>
     </Grid>
     
 </Window>

@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="QSA.Base"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QSA"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080"
+             d:DesignWidth="1820"
+             Background="#e2e2e2">
+    <Grid>
+        <Label
+            Foreground="#A59678"
+            FontFamily="jsMath-cmr10"
+            FontSize="512"
+            Opacity="0.3"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="326,260,0,0">
+            QSA
+        </Label>
+    </Grid>
+</UserControl>
