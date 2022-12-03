@@ -45,7 +45,7 @@
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Margin="25,137,0,0">
-                
+
             </Border>
 
             <Label
@@ -225,7 +225,7 @@
                 BorderBrush="Transparent"
                 Foreground="#000000"
                 FontFamily="Voces"
-                FontSize="32">
+                FontSize="32" Click="Start_test_button_Cick">
                 Testi Başlat
             </Button>
         </Border>
@@ -430,5 +430,61 @@
             HorizontalAlignment="Left"
             Margin="350,113,0,0"
             ></ScrollBar>
+        <ListBox
+            Background="Transparent"
+            BorderBrush="Transparent"
+            Height="847"
+            Width="101"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="380,113,0,0">
+        </ListBox>
+        <ListBox
+            Background="Transparent"
+            BorderBrush="Transparent"
+            Height="847"
+            Width="499"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="484,113,0,0">
+
+        </ListBox>
+        <ListBox
+            Background="Transparent"
+            BorderBrush="Transparent"
+            Height="847"
+            Width="183"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="986,113,0,0">
+        </ListBox>
+        <ListBox
+            Background="Transparent"
+            BorderBrush="Transparent"
+            Height="847"
+            Width="179"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="1172,113,0,0"
+            >
+        </ListBox>
+        <ListBox
+            Background="Transparent"
+            BorderBrush="Transparent"
+            Height="847"
+            Width="216"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="1354,113,0,0">
+        </ListBox>
+        <ListBox
+            Background="Transparent"
+            BorderBrush="Transparent"
+            Height="847"
+            Width="196"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="1573,113,0,0">
+        </ListBox>
     </Grid>
 </UserControl>

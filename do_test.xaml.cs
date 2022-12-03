@@ -36,5 +36,11 @@ namespace QSA
         {
 
         }
+
+        private void Start_test_button_Cick(object sender, RoutedEventArgs e)
+        {
+            waiting_students waiting_screen = new waiting_students();
+            waiting_screen.Show();
+        }
     }
 }
