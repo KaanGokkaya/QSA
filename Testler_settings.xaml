@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="QSA.Testler_settings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QSA"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" 
+             d:DesignWidth="800"
+             Background="#AEA28B"
+             BorderBrush="Transparent">
+    <Grid>
+        <Label
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            FontFamily="Voces"
+            FontSize="40">Test Ayarları</Label>    
+    </Grid>
+</UserControl>

@@ -27,7 +27,7 @@
                 FontSize="20"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="75,27,0,0">Testler</Button>
+                Margin="75,27,0,0" Click="testler_Click">Testler</Button>
             <Button
                 Background="Transparent"
                 BorderBrush="Transparent"
@@ -36,7 +36,7 @@
                 FontSize="20"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="245,27,0,0">Ödevler</Button>
+                Margin="245,27,0,0" Click="odevler_Click">Ödevler</Button>
             <Button
                 Background="Transparent"
                 BorderBrush="Transparent"
@@ -45,7 +45,7 @@
                 FontSize="20"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="424,27,0,0">Sayfa</Button>
+                Margin="424,27,0,0" Click="Sayfa_Click">Sayfa</Button>
             <Button
                 Background="Transparent"
                 BorderBrush="Transparent"
@@ -54,7 +54,7 @@
                 FontSize="20"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="598,27,0,0">Bize Ulaşın!</Button>
+                Margin="598,27,0,0" Click="contactMe_Click">Bize Ulaşın!</Button>
             <Button
                 Name="close_bnt_settings"
                 Background="Transparent"
@@ -74,6 +74,13 @@
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Margin="50,62,0,0"></Border>
+            <ContentControl
+                x:Name="CC_Settings"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Height="400"
+                Width="800"
+                Margin="50,68,0,0"></ContentControl>
         </Grid>
     </Border>
 </Window>

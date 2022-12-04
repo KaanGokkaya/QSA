@@ -28,5 +28,25 @@ namespace QSA
         {
             this.Close();
         }
+
+        private void testler_Click(object sender, RoutedEventArgs e)
+        {
+            CC_Settings.Content = new Testler_settings();
+        }
+
+        private void odevler_Click(object sender, RoutedEventArgs e)
+        {
+            CC_Settings.Content = new Odevler_settings();
+        }
+
+        private void Sayfa_Click(object sender, RoutedEventArgs e)
+        {
+            CC_Settings.Content = new Sayfa_settings();
+        }
+
+        private void contactMe_Click(object sender, RoutedEventArgs e)
+        {
+            CC_Settings.Content = new contact_me_settings();
+        }
     }
 }
