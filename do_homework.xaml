@@ -89,15 +89,6 @@
                 Margin="53,657,0,0">
                 Şube
             </Label>
-            <Label
-                Foreground="Black"
-                FontFamily="Voces"
-                FontSize="24"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="53,776,0,0">
-                Sonucu Bağdaştır
-            </Label>
 
             <Border
                 Width="200"
@@ -165,21 +156,22 @@
                     FontFamily="Voces"
                     FontSize="24"
                     VerticalContentAlignment="Center"
-                    HorizontalContentAlignment="Center">
+                    HorizontalContentAlignment="Center" Click="Homework_Start_Clicked">
                     Başla
                 </Button>
             </Border>
-
-            <Border
-                Width="50"
-                Height="25"
-                Background="#303030"
-                CornerRadius="12,12,12,12"
+            <CheckBox
+                Foreground="Black"
+                FontFamily="Voces"
+                FontSize="24"
+                Background="#d9d9d9"
+                BorderBrush="#d9d9d9"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="53,815,0,0">
-            </Border>
-            
+                Margin="53,776,0,0"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                >Sonucu Bağdaştır</CheckBox>
 
         </Grid>
     </Grid>

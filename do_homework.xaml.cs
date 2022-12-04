@@ -39,5 +39,11 @@ namespace QSA
         {
 
         }
+
+        private void Homework_Start_Clicked(object sender, RoutedEventArgs e)
+        {
+            homework_waititng_students waiting_screen = new homework_waititng_students();
+            waiting_screen.Show();
+        }
     }
 }
