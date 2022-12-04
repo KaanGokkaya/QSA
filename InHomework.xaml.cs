@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -30,6 +31,20 @@ namespace QSA
             {
                 this.Close();
             }
+        }
+        private void oncekisoru_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sonrakiSoru_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Homework_Open(object sender, EventArgs e)
+        {
+
         }
     }
 }

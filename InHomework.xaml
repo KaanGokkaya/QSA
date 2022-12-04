@@ -1,4 +1,4 @@
-﻿<Window x:Class="QSA.InHomework"
+﻿<Window x:Name="homework_window" x:Class="QSA.InHomework"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -11,7 +11,7 @@
         Background="#e2e2e2"
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
-        WindowState="Maximized">
+        WindowState="Maximized" Activated="Homework_Open">
     <Grid>
         <Grid
             Background="#A59678"
@@ -59,6 +59,7 @@
             HorizontalAlignment="Left"
             Margin="285,20,0,0">
             <ProgressBar
+                Name="time"
                 BorderBrush="Transparent"
                 Background="Transparent"
                 Foreground="#A59678">
@@ -75,6 +76,7 @@
             HorizontalAlignment="Left"
             Margin="285,85,0,0">
             <Label
+                Name="soru_sayısı_label"
                 Foreground="Black"
                 FontFamily="Vorces"
                 FontSize="200"
@@ -106,7 +108,7 @@
             FontFamily="Voces"
             FontSize="24"
             Margin="250,0,0,0"
-            BorderThickness="0">Önceki Soru</Button>
+            BorderThickness="0" Click="oncekisoru_Click">Önceki Soru</Button>
         <Button
             Height="60"
             Width="445"
@@ -118,7 +120,7 @@
             FontSize="24"
             Margin="695,0,0,0"
             BorderThickness="2"
-            BorderBrush="#A59678">Sonraki Soru</Button>
+            BorderBrush="#A59678" Click="sonrakiSoru_Click">Sonraki Soru</Button>
         <Button
             Height="60"
             Width="445"
