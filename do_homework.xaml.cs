@@ -10,26 +10,34 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace QSA
 {
     /// <summary>
-    /// Interaction logic for InTest.xaml
+    /// Interaction logic for do_homework.xaml
     /// </summary>
-    public partial class InTest : Window
+    public partial class do_homework : UserControl
     {
-        public InTest()
+        public do_homework()
         {
             InitializeComponent();
         }
 
-        private void End_Test_button_Click(object sender, RoutedEventArgs e)
+        private void result_addStatistic_Checked(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Testten Çıkış Yapılıyor. Onaylıyor musunuz ?", "InTest Screen", MessageBoxButton.YesNo, MessageBoxImage.None) == MessageBoxResult.Yes)
-            {
-                this.Close();
-            }
+
+        }
+
+        private void Open_result_addStatistic_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Close_result_addStatistic_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

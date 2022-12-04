@@ -50,7 +50,7 @@ namespace QSA
 
         private void Homework_button_Click(object sender, RoutedEventArgs e)
         {
-
+            CC.Content = new do_homework();
         }
 
         private void Statistic_button_Click(object sender, RoutedEventArgs e)
