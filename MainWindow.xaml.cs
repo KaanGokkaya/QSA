@@ -65,7 +65,8 @@ namespace QSA
 
         private void Setting_button_Click(object sender, RoutedEventArgs e)
         {
-
+            settings_window settings = new settings_window();
+            settings.Show();
         }
     }
 }

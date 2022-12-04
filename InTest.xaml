@@ -26,14 +26,14 @@
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Margin="50,30,0,0">Öğretmen</Label>
-            <ListBox
+            <TextBox
                 Height="64"
                 Width="152"
                 Background="Transparent"
                 BorderBrush="Transparent"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="49,86,0,0"></ListBox>
+                Margin="49,86,0,0"></TextBox>
             <Label
                 Foreground="Black"
                 FontFamily="Voces"
@@ -41,14 +41,14 @@
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Margin="49,168,0,0">Öğrenciler</Label>
-            <ListBox
+            <TextBox
                 Height="763"
                 Width="152"
                 Background="Transparent"
                 BorderBrush="Transparent"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="49,242,0,0"></ListBox>
+                Margin="49,242,0,0"></TextBox>
         </Grid>
         <Button
             Height="60"

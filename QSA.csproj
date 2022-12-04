@@ -13,9 +13,11 @@
     <None Remove="Image\exit.png" />
     <None Remove="Image\help.png" />
     <None Remove="Image\homework.png" />
+    <None Remove="Image\plus.png" />
     <None Remove="Image\settings.png" />
     <None Remove="Image\statistic.png" />
     <None Remove="Image\uploadtest.png" />
+    <None Remove="Image\x.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,9 +26,11 @@
     <Resource Include="Image\exit.png" />
     <Resource Include="Image\help.png" />
     <Resource Include="Image\homework.png" />
+    <Resource Include="Image\plus.png" />
     <Resource Include="Image\settings.png" />
     <Resource Include="Image\statistic.png" />
     <Resource Include="Image\uploadtest.png" />
+    <Resource Include="Image\x.png" />
   </ItemGroup>
 
 </Project>
